@@ -1,11 +1,37 @@
-.App {
-  text-align: center;
+.float-container{
+  /* border: 3px solid red; */
+   padding: 30px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.float-child{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  /* border: 2px solid red;   */
 }
+.food{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border:2px solid black
+}
+.food th{
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-bottom:1px solid black
+}
+ .food td{
+  border-bottom:1px solid black;
+  font-size: large;  
+} 
+tbody tr:nth-child(even)
+{
+  background: #DCDCDC;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +39,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
